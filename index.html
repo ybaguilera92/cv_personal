@@ -1,0 +1,925 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Yoel Benedico Aguilera — Ingeniero de Software & Machine Learning
+    </title>
+    <meta
+      name="description"
+      content="Landing page y currículum profesional de Yoel Benedico Aguilera, Full-Stack Developer e Ingeniero de Software con Maestría en Inteligencia Artificial y Machine Learning."
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <!-- ========================================================================
+       BARRA DE NAVEGACIÓN
+       ======================================================================== -->
+    <nav class="navbar">
+      <div class="container nav-container">
+        <a href="#home" class="brand-logo">
+          <span class="brand-monogram">YB</span>
+          <span>Yoel Benedico</span>
+        </a>
+
+        <ul class="nav-links">
+          <li>
+            <a href="#home" class="nav-link active" data-i18n="nav_home"
+              >Inicio</a
+            >
+          </li>
+          <li>
+            <a href="#about" class="nav-link" data-i18n="nav_about">Sobre mí</a>
+          </li>
+          <li>
+            <a href="#experience" class="nav-link" data-i18n="nav_experience"
+              >Experiencia</a
+            >
+          </li>
+          <li>
+            <a href="#projects" class="nav-link" data-i18n="nav_projects"
+              >Proyectos</a
+            >
+          </li>
+          <li>
+            <a href="#stack" class="nav-link" data-i18n="nav_stack"
+              >Tecnologías</a
+            >
+          </li>
+          <li>
+            <a href="#education" class="nav-link" data-i18n="nav_education"
+              >Formación</a
+            >
+          </li>
+          <li>
+            <a href="#contact" class="nav-link" data-i18n="nav_contact"
+              >Contacto</a
+            >
+          </li>
+        </ul>
+
+        <div class="nav-actions">
+          <!-- Selector de Idioma -->
+          <div class="lang-selector" aria-label="Seleccionar idioma">
+            <button class="lang-btn active" data-lang="es" title="Español">
+              ES
+            </button>
+            <button class="lang-btn" data-lang="en" title="English">EN</button>
+          </div>
+
+          <!-- Modo Oscuro / Claro -->
+          <button
+            class="theme-toggle"
+            title="Cambiar tema"
+            aria-label="Cambiar tema"
+          >
+            ☀️
+          </button>
+
+          <!-- Botón Descargar CV -->
+          <a
+            href="cv.en.pdf"
+            download="Yoel_Benedico_CV.pdf"
+            class="btn-download-nav"
+            title="Descargar CV en PDF"
+          >
+            📄 <span data-i18n="nav_download_cv">Descargar CV</span>
+          </a>
+
+          <!-- Botón Móvil -->
+          <button class="mobile-toggle" aria-label="Abrir menú de navegación">
+            ☰
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ========================================================================
+       HERO SECTION
+       ======================================================================== -->
+    <header id="home" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="badge-status">
+            <span class="badge-dot"></span>
+            <span data-i18n="hero_badge"
+              >Disponible para nuevos proyectos y oportunidades</span
+            >
+          </div>
+
+          <p class="hero-greeting" data-i18n="hero_greeting">Hola, soy</p>
+          <h1 class="hero-name" data-i18n="hero_title">
+            Yoel Benedico Aguilera
+          </h1>
+          <h2 class="hero-role" data-i18n="hero_role">
+            Full-Stack Developer & Machine Learning
+          </h2>
+
+          <p class="hero-desc" data-i18n="hero_subtitle">
+            Ingeniero Informático y Máster en Informática Aplicada. Más de 8
+            años diseñando y desarrollando arquitecturas web escalables, APIs
+            robustas y modelos de aprendizaje automático orientados al impacto
+            real.
+          </p>
+
+          <div class="hero-actions">
+            <a
+              href="#projects"
+              class="btn btn-primary"
+              data-i18n="hero_cta_projects"
+              >Ver proyectos</a
+            >
+            <a
+              href="cv.en.pdf"
+              download="Yoel_Benedico_CV.pdf"
+              class="btn btn-secondary"
+              data-i18n="hero_cta_cv"
+            >
+              Descargar CV
+            </a>
+            <a
+              href="#contact"
+              class="btn btn-secondary"
+              data-i18n="hero_cta_contact"
+              >Hablemos</a
+            >
+          </div>
+
+          <div class="social-bar">
+            <a
+              href="https://www.linkedin.com/in/yoel-benedico-aguilera-baa463142/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="social-icon-link"
+              title="LinkedIn"
+              >🔗</a
+            >
+            <a
+              href="https://github.com/ybaguilera92"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="social-icon-link"
+              title="GitHub"
+              >🐙</a
+            >
+            <a
+              href="https://wa.me/5353188267"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="social-icon-link"
+              title="WhatsApp"
+              >💬</a
+            >
+            <a
+              href="mailto:yoel.benedico@gmail.com"
+              class="social-icon-link"
+              title="Email"
+              >✉️</a
+            >
+          </div>
+        </div>
+
+        <!-- Tarjeta Visual del Perfil con Foto por Defecto -->
+        <div class="hero-image-wrapper">
+          <div class="profile-card">
+            <div class="profile-img-inner">
+              <img
+                src="assets/images/avatar.png"
+                alt="Yoel Benedico Aguilera"
+              />
+            </div>
+            <div class="floating-chip chip-1">
+              <span>⚡</span>
+              <span>Full-Stack Engineer</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- ========================================================================
+       MÉTRICAS CLAVE (HIGHLIGHTS)
+       ======================================================================== -->
+    <section class="metrics-section">
+      <div class="container">
+        <div class="metrics-grid">
+          <div class="metric-card">
+            <div class="metric-value" data-i18n="metric_exp_number">+8</div>
+            <div class="metric-label" data-i18n="metric_exp_label">
+              Años de experiencia profesional
+            </div>
+          </div>
+          <div class="metric-card">
+            <div class="metric-value" data-i18n="metric_master_badge">
+              M.Sc.
+            </div>
+            <div class="metric-label" data-i18n="metric_master_label">
+              Máster en Informática Aplicada (ML)
+            </div>
+          </div>
+          <div class="metric-card">
+            <div class="metric-value" data-i18n="metric_students_number">
+              +200
+            </div>
+            <div class="metric-label" data-i18n="metric_students_label">
+              Alumnos formados como docente universitario
+            </div>
+          </div>
+          <div class="metric-card">
+            <div class="metric-value">Full-Stack</div>
+            <div class="metric-label" data-i18n="metric_stack_label">
+              Especialista (Angular, React, Node, Spring)
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+       SOBRE MÍ
+       ======================================================================== -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title" data-i18n="about_title">Sobre mí</h2>
+          <p class="section-subtitle" data-i18n="about_subtitle">
+            Trayectoria, mentalidad de resolución de problemas y aprendizaje
+            continuo.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text">
+            <p data-i18n="about_p1">
+              Soy desarrollador web e ingeniero de software con sólida
+              experiencia práctica en la creación de aplicaciones modulares con
+              React.js, Angular (versiones 8+), Node.js y el stack MERN
+              (MongoDB, Express, React, Node). Desarrollo servicios backend
+              confiables, APIs RESTful y microservicios con Spring Boot, Node.js
+              y Django REST Framework, integrados con bases de datos MySQL,
+              PostgreSQL y MongoDB.
+            </p>
+            <p data-i18n="about_p2">
+              Además de mi trayectoria en la industria, me desempeñé durante más
+              de 6 años como profesor universitario impartiendo Programación
+              Orientada a Objetos, Estructuras de Datos, Bases de Datos e
+              Inteligencia Artificial. Cuento con una Maestría en Informática
+              Aplicada donde investigué e implementé soluciones de Machine
+              Learning para ciberseguridad.
+            </p>
+            <p data-i18n="about_p3">
+              Me destaco por mi proactividad, pensamiento analítico y capacidad
+              para colaborar eficazmente en equipos multidisciplinarios. Mi
+              enfoque constante es elevar la calidad del software, optimizar la
+              experiencia de usuario y seguir creciendo como profesional cada
+              día.
+            </p>
+          </div>
+
+          <div class="soft-skills-card">
+            <h3 data-i18n="about_soft_title">
+              Habilidades Interpersonales Clave
+            </h3>
+            <div class="soft-skills-list">
+              <div class="soft-skill-item">
+                <span class="soft-skill-icon">💬</span>
+                <span data-i18n="soft_communication"
+                  >Comunicación Clara y Redacción Técnica</span
+                >
+              </div>
+              <div class="soft-skill-item">
+                <span class="soft-skill-icon">👥</span>
+                <span data-i18n="soft_teamwork"
+                  >Liderazgo Técnico y Trabajo en Equipo</span
+                >
+              </div>
+              <div class="soft-skill-item">
+                <span class="soft-skill-icon">🧩</span>
+                <span data-i18n="soft_problem_solving"
+                  >Resolución de Problemas Complejos</span
+                >
+              </div>
+              <div class="soft-skill-item">
+                <span class="soft-skill-icon">🚀</span>
+                <span data-i18n="soft_adaptability"
+                  >Adaptabilidad y Aprendizaje Continuo</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+       EXPERIENCIA LABORAL
+       ======================================================================== -->
+    <section id="experience" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title" data-i18n="exp_title">
+            Experiencia Profesional
+          </h2>
+          <p class="section-subtitle" data-i18n="exp_subtitle">
+            Trayectoria comprobada liderando y desarrollando soluciones
+            tecnológicas.
+          </p>
+        </div>
+
+        <div class="timeline">
+          <!-- Puesto 1 -->
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <h3 class="timeline-role" data-i18n="exp_role_1">
+                  Full-Stack Developer
+                </h3>
+                <span class="timeline-period" data-i18n="exp_period_1"
+                  >02/2023 – Actualidad</span
+                >
+              </div>
+              <div class="timeline-company" data-i18n="exp_company_1">
+                Sitrans (Sistema de Información para el Transporte)
+              </div>
+              <ul class="timeline-list">
+                <li data-i18n="exp_desc_1_1">
+                  Liderazgo técnico en el análisis, diseño, pruebas y despliegue
+                  de aplicaciones web empresariales como productos modulares y
+                  de alta disponibilidad.
+                </li>
+                <li data-i18n="exp_desc_1_2">
+                  Desarrollo de arquitecturas frontend con Angular 8+, React.js,
+                  TailwindCSS y Material UI.
+                </li>
+                <li data-i18n="exp_desc_1_3">
+                  Implementación de microservicios y APIs REST en backend
+                  utilizando Spring Boot, Node.js y Express con bases de datos
+                  MySQL y MongoDB.
+                </li>
+                <li data-i18n="exp_desc_1_4">
+                  Aseguramiento de estándares de calidad, escalabilidad del
+                  código y fomento de metodologías ágiles en el equipo de
+                  desarrollo.
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Puesto 2 -->
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <h3 class="timeline-role" data-i18n="exp_role_2">
+                  Full-Stack Developer & Profesor Universitario
+                </h3>
+                <span class="timeline-period" data-i18n="exp_period_2"
+                  >09/2016 – 02/2023</span
+                >
+              </div>
+              <div class="timeline-company" data-i18n="exp_company_2">
+                Universidad de Ciego de Ávila Máximo Gómez Báez
+              </div>
+              <ul class="timeline-list">
+                <li data-i18n="exp_desc_2_1">
+                  Diseño e implementación de sistemas web y de escritorio
+                  modulares utilizando Angular, Node.js, Bootstrap y Django REST
+                  Framework con MySQL y MongoDB.
+                </li>
+                <li data-i18n="exp_desc_2_2">
+                  Gestión completa del ciclo de vida del software (SDLC), desde
+                  el levantamiento de requisitos hasta la puesta en producción.
+                </li>
+                <li data-i18n="exp_desc_2_3">
+                  Docente titular de materias fundamentales: Programación
+                  Orientada a Objetos, Estructuras de Datos y Algoritmos, Bases
+                  de Datos e Inteligencia Artificial, formando a más de 200
+                  futuros ingenieros.
+                </li>
+                <li data-i18n="exp_desc_2_4">
+                  Tutoría y dirección de proyectos de software aplicados a
+                  problemáticas reales de la institución y el entorno
+                  productivo.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+       PROYECTOS DESTACADOS
+       ======================================================================== -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title" data-i18n="projects_title">
+            Proyectos Destacados
+          </h2>
+          <p class="section-subtitle" data-i18n="projects_subtitle">
+            Una selección de proyectos de producto, arquitectura e inteligencia
+            artificial.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Proyecto 1 -->
+          <article class="project-card">
+            <div>
+              <div class="project-tag" data-i18n="proj_1_tag">
+                Plataforma Web · Gestión Educativa Internacional
+              </div>
+              <h3 class="project-title" data-i18n="proj_1_title">
+                IES Manager (Mifutura)
+              </h3>
+              <p class="project-desc" data-i18n="proj_1_desc">
+                Herramienta centralizada de gestión de datos para las
+                aplicaciones de Futura. Control y seguimiento de cursos, becas,
+                programas académicos, universidades e intermediaciones para
+                instituciones en México, Colombia, China, Argentina y Cuba,
+                entre otros.
+              </p>
+            </div>
+            <div>
+              <div class="project-skills">
+                <small data-i18n="proj_1_skills"
+                  >React.js, Node.js, Express.js, MongoDB, MVC, Bootstrap,
+                  Postman, Git, Webpack.</small
+                >
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://manager.mifutura.co/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="project-link-btn"
+                >
+                  <span data-i18n="proj_btn_visit">Visitar plataforma</span> ↗
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Proyecto 2 -->
+          <article class="project-card">
+            <div>
+              <div class="project-tag" data-i18n="proj_2_tag">
+                Machine Learning · Ciberseguridad
+              </div>
+              <h3 class="project-title" data-i18n="proj_2_title">
+                Herramienta de Detección de Patrones en Servidores Proxy
+              </h3>
+              <p class="project-desc" data-i18n="proj_2_desc">
+                Desarrollo e investigación para la detección de comportamientos
+                anómalos y patrones sospechosos en registros de tráfico proxy
+                utilizando técnicas de aprendizaje no supervisado (K-Means
+                Clustering). Evaluada con base en la norma de calidad ISO/IEC
+                25010.
+              </p>
+            </div>
+            <div>
+              <div class="project-skills">
+                <small data-i18n="proj_2_skills"
+                  >Python, Scikit-learn, Anaconda, Web2py, MariaDB, K-Means,
+                  Análisis de Datos.</small
+                >
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://www.unica.cu/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="project-link-btn"
+                >
+                  <span data-i18n="proj_btn_details"
+                    >Ver publicación / Tesis</span
+                  >
+                  ↗
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Proyecto 3 -->
+          <article class="project-card">
+            <div>
+              <div class="project-tag" data-i18n="proj_3_tag">
+                Seguridad de Redes · Backend Corporativo
+              </div>
+              <h3 class="project-title" data-i18n="proj_3_title">
+                Sistema de Control de Trazas y Navegación Proxy
+              </h3>
+              <p class="project-desc" data-i18n="proj_3_desc">
+                Sistema institucional para la auditoría y visualización de
+                trazas de navegación web con validación de credenciales en
+                servidores de dominio Active Directory mediante protocolo LDAP y
+                generación de reportes analíticos para administradores de red.
+              </p>
+            </div>
+            <div>
+              <div class="project-skills">
+                <small data-i18n="proj_3_skills"
+                  >Java, Play Framework, MySQL, Active Directory, LDAP,
+                  Bootstrap.</small
+                >
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://www.unica.cu/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="project-link-btn"
+                >
+                  <span data-i18n="proj_btn_code">Ver arquitectura</span> ↗
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Proyecto 4 -->
+          <article class="project-card">
+            <div>
+              <div class="project-tag" data-i18n="proj_4_tag">
+                Gestión Operativa · Microservicios
+              </div>
+              <h3 class="project-title" data-i18n="proj_4_title">
+                Plataforma de Información Sitrans
+              </h3>
+              <p class="project-desc" data-i18n="proj_4_desc">
+                Ecosistema de módulos integrados para la gestión operativa y
+                logística de flotas de transporte, trazabilidad de operaciones e
+                interfaces de usuario reactivas de alto rendimiento.
+              </p>
+            </div>
+            <div>
+              <div class="project-skills">
+                <small data-i18n="proj_4_skills"
+                  >Angular 8+, Spring Boot, Node.js, TailwindCSS, MySQL,
+                  Docker.</small
+                >
+              </div>
+              <div class="project-links">
+                <span class="project-link-btn" style="cursor: default">
+                  <span data-i18n="proj_btn_info">Ver detalles</span> 🏢
+                </span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+       TECNOLOGÍAS QUE USO (STACK MATRIX)
+       ======================================================================== -->
+    <section id="stack" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title" data-i18n="stack_title">
+            Las Tecnologías que Uso
+          </h2>
+          <p class="section-subtitle" data-i18n="stack_subtitle">
+            Herramientas y tecnologías con las que construyo soluciones robustas
+            a diario.
+          </p>
+        </div>
+
+        <!-- Filtros de Categoría -->
+        <div class="stack-filters">
+          <button
+            class="stack-filter-btn active"
+            data-category="all"
+            data-i18n="stack_cat_all"
+          >
+            Todos
+          </button>
+          <button
+            class="stack-filter-btn"
+            data-category="frontend"
+            data-i18n="stack_cat_frontend"
+          >
+            Frontend
+          </button>
+          <button
+            class="stack-filter-btn"
+            data-category="backend"
+            data-i18n="stack_cat_backend"
+          >
+            Backend & APIs
+          </button>
+          <button
+            class="stack-filter-btn"
+            data-category="databases"
+            data-i18n="stack_cat_databases"
+          >
+            Bases de Datos
+          </button>
+          <button
+            class="stack-filter-btn"
+            data-category="devops"
+            data-i18n="stack_cat_devops"
+          >
+            DevOps & Cloud
+          </button>
+          <button
+            class="stack-filter-btn"
+            data-category="ml"
+            data-i18n="stack_cat_ml"
+          >
+            IA & Machine Learning
+          </button>
+        </div>
+
+        <!-- Grilla de Chips Tecnológicos -->
+        <div class="stack-grid">
+          <!-- Frontend -->
+          <div class="tech-chip" data-category="frontend">
+            <span class="tech-chip-icon">⚛️</span>
+            <span class="tech-chip-name">React.js</span>
+            <span class="tech-chip-cat">Frontend</span>
+          </div>
+          <div class="tech-chip" data-category="frontend">
+            <span class="tech-chip-icon">🅰️</span>
+            <span class="tech-chip-name">Angular 8+</span>
+            <span class="tech-chip-cat">Frontend</span>
+          </div>
+          <div class="tech-chip" data-category="frontend">
+            <span class="tech-chip-icon">🔷</span>
+            <span class="tech-chip-name">TypeScript</span>
+            <span class="tech-chip-cat">Frontend / Backend</span>
+          </div>
+          <div class="tech-chip" data-category="frontend">
+            <span class="tech-chip-icon">🟨</span>
+            <span class="tech-chip-name">JavaScript (ES6+)</span>
+            <span class="tech-chip-cat">Frontend</span>
+          </div>
+          <div class="tech-chip" data-category="frontend">
+            <span class="tech-chip-icon">🌊</span>
+            <span class="tech-chip-name">TailwindCSS</span>
+            <span class="tech-chip-cat">Frontend UI</span>
+          </div>
+          <div class="tech-chip" data-category="frontend">
+            <span class="tech-chip-icon">🎨</span>
+            <span class="tech-chip-name">Material UI / MUI</span>
+            <span class="tech-chip-cat">Frontend UI</span>
+          </div>
+          <div class="tech-chip" data-category="frontend">
+            <span class="tech-chip-icon">🅱️</span>
+            <span class="tech-chip-name">Bootstrap</span>
+            <span class="tech-chip-cat">Frontend UI</span>
+          </div>
+          <div class="tech-chip" data-category="frontend">
+            <span class="tech-chip-icon">🌐</span>
+            <span class="tech-chip-name">HTML5 / CSS3 / Sass</span>
+            <span class="tech-chip-cat">Frontend Core</span>
+          </div>
+
+          <!-- Backend -->
+          <div class="tech-chip" data-category="backend">
+            <span class="tech-chip-icon">🟢</span>
+            <span class="tech-chip-name">Node.js</span>
+            <span class="tech-chip-cat">Backend Runtime</span>
+          </div>
+          <div class="tech-chip" data-category="backend">
+            <span class="tech-chip-icon">⚡</span>
+            <span class="tech-chip-name">Express.js</span>
+            <span class="tech-chip-cat">Backend Framework</span>
+          </div>
+          <div class="tech-chip" data-category="backend">
+            <span class="tech-chip-icon">🍃</span>
+            <span class="tech-chip-name">Spring Boot (Java)</span>
+            <span class="tech-chip-cat">Enterprise Backend</span>
+          </div>
+          <div class="tech-chip" data-category="backend">
+            <span class="tech-chip-icon">🐍</span>
+            <span class="tech-chip-name">Django REST (Python)</span>
+            <span class="tech-chip-cat">Backend Framework</span>
+          </div>
+          <div class="tech-chip" data-category="backend">
+            <span class="tech-chip-icon">🔌</span>
+            <span class="tech-chip-name">RESTful APIs & GraphQL</span>
+            <span class="tech-chip-cat">API Architecture</span>
+          </div>
+
+          <!-- Databases -->
+          <div class="tech-chip" data-category="databases">
+            <span class="tech-chip-icon">🍃</span>
+            <span class="tech-chip-name">MongoDB / Mongoose</span>
+            <span class="tech-chip-cat">NoSQL Database</span>
+          </div>
+          <div class="tech-chip" data-category="databases">
+            <span class="tech-chip-icon">🐬</span>
+            <span class="tech-chip-name">MySQL / Knex.js</span>
+            <span class="tech-chip-cat">SQL Database</span>
+          </div>
+          <div class="tech-chip" data-category="databases">
+            <span class="tech-chip-icon">🐘</span>
+            <span class="tech-chip-name">PostgreSQL</span>
+            <span class="tech-chip-cat">SQL Database</span>
+          </div>
+          <div class="tech-chip" data-category="databases">
+            <span class="tech-chip-icon">🦭</span>
+            <span class="tech-chip-name">MariaDB</span>
+            <span class="tech-chip-cat">SQL Database</span>
+          </div>
+
+          <!-- DevOps & Tools -->
+          <div class="tech-chip" data-category="devops">
+            <span class="tech-chip-icon">🐳</span>
+            <span class="tech-chip-name">Docker / Compose</span>
+            <span class="tech-chip-cat">Containers</span>
+          </div>
+          <div class="tech-chip" data-category="devops">
+            <span class="tech-chip-icon">🌊</span>
+            <span class="tech-chip-name">DigitalOcean</span>
+            <span class="tech-chip-cat">Cloud Hosting</span>
+          </div>
+          <div class="tech-chip" data-category="devops">
+            <span class="tech-chip-icon">🚀</span>
+            <span class="tech-chip-name">Jenkins / CI-CD</span>
+            <span class="tech-chip-cat">Automation</span>
+          </div>
+          <div class="tech-chip" data-category="devops">
+            <span class="tech-chip-icon">🌿</span>
+            <span class="tech-chip-name">Git / GitHub</span>
+            <span class="tech-chip-cat">Version Control</span>
+          </div>
+          <div class="tech-chip" data-category="devops">
+            <span class="tech-chip-icon">📮</span>
+            <span class="tech-chip-name">Postman</span>
+            <span class="tech-chip-cat">API Testing</span>
+          </div>
+
+          <!-- Machine Learning -->
+          <div class="tech-chip" data-category="ml">
+            <span class="tech-chip-icon">🤖</span>
+            <span class="tech-chip-name">Scikit-learn</span>
+            <span class="tech-chip-cat">Machine Learning</span>
+          </div>
+          <div class="tech-chip" data-category="ml">
+            <span class="tech-chip-icon">📊</span>
+            <span class="tech-chip-name">K-Means Clustering</span>
+            <span class="tech-chip-cat">Unsupervised ML</span>
+          </div>
+          <div class="tech-chip" data-category="ml">
+            <span class="tech-chip-icon">📈</span>
+            <span class="tech-chip-name">Anaconda / Pandas</span>
+            <span class="tech-chip-cat">Data Science</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+       FORMACIÓN ACADÉMICA E IDIOMAS
+       ======================================================================== -->
+    <section id="education" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title" data-i18n="edu_title">
+            Formación Académica
+          </h2>
+          <p class="section-subtitle" data-i18n="edu_subtitle">
+            Bases científicas e ingeniería informática de alto rigor.
+          </p>
+        </div>
+
+        <div class="education-grid">
+          <!-- Grados Universitarios -->
+          <div class="degrees-list">
+            <div class="edu-card">
+              <div class="edu-header">
+                <h3 class="edu-degree" data-i18n="edu_degree_1">
+                  Máster en Informática Aplicada
+                </h3>
+                <span class="edu-period" data-i18n="edu_period_1"
+                  >01/2019 – 02/2022</span
+                >
+              </div>
+              <div class="edu-institution" data-i18n="edu_inst_1">
+                Universidad de Ciego de Ávila Máximo Gómez Báez
+              </div>
+              <p class="edu-desc" data-i18n="edu_desc_1">
+                Especialización en Inteligencia Artificial, Machine Learning,
+                Big Data, Ciberseguridad y Computación en la Nube. Tesis de
+                investigación: "Herramienta Informática para la Detección de
+                Patrones en Registros de Tráfico del Servidor Proxy" mediante
+                clustering no supervisado.
+              </p>
+            </div>
+
+            <div class="edu-card">
+              <div class="edu-header">
+                <h3 class="edu-degree" data-i18n="edu_degree_2">
+                  Ingeniería en Ciencias Informáticas
+                </h3>
+                <span class="edu-period" data-i18n="edu_period_2"
+                  >09/2011 – 07/2016</span
+                >
+              </div>
+              <div class="edu-institution" data-i18n="edu_inst_2">
+                Universidad de Ciego de Ávila Máximo Gómez Báez
+              </div>
+              <p class="edu-desc" data-i18n="edu_desc_2">
+                Formación integral de 5 años en Algoritmos y Estructuras de
+                Datos, Redes de Computadoras, Sistemas Operativos, Bases de
+                Datos e Ingeniería de Software. Tesis: "Sistema para el Control
+                de Trazas del Servidor Proxy".
+              </p>
+            </div>
+          </div>
+
+          <!-- Idiomas & Soft Skills -->
+          <div class="languages-box">
+            <h3 data-i18n="lang_title">Idiomas</h3>
+            <div class="lang-row">
+              <span class="lang-name" data-i18n="lang_es">Español</span>
+              <span class="lang-badge" data-i18n="lang_es_level">Nativo</span>
+            </div>
+            <div class="lang-row">
+              <span class="lang-name" data-i18n="lang_en">Inglés</span>
+              <span class="lang-badge" data-i18n="lang_en_level"
+                >Nivel Intermedio / Profesional (A2)</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+       CONTACTO & CALL TO ACTION
+       ======================================================================== -->
+    <section id="contact" class="contact-section">
+      <div class="container contact-content">
+        <h2 class="contact-title" data-i18n="contact_title">
+          ¿Tienes un proyecto en mente o buscas un ingeniero para tu equipo?
+        </h2>
+        <p class="contact-subtitle" data-i18n="contact_subtitle">
+          Estoy disponible para colaborar en proyectos desafiantes y roles de
+          desarrollo Full-Stack o Machine Learning.
+        </p>
+
+        <div class="contact-actions">
+          <a
+            href="https://wa.me/5353188267"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="contact-btn btn-whatsapp"
+          >
+            <span>💬</span>
+            <span data-i18n="contact_btn_whatsapp">Chatear por WhatsApp</span>
+          </a>
+          <a href="mailto:yoel.benedico@gmail.com" class="contact-btn">
+            <span>✉️</span>
+            <span data-i18n="contact_btn_email">Enviar correo</span>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/yoel-benedico-aguilera-baa463142/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="contact-btn"
+          >
+            <span>🔗</span>
+            <span data-i18n="contact_btn_linkedin">Conectar en LinkedIn</span>
+          </a>
+          <a
+            href="https://github.com/ybaguilera92"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="contact-btn"
+          >
+            <span>🐙</span>
+            <span data-i18n="contact_btn_github">Perfil de GitHub</span>
+          </a>
+        </div>
+
+        <div class="contact-location">
+          📍
+          <span data-i18n="contact_location"
+            >Ciego de Ávila, Cuba · Disponible para trabajo remoto</span
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+       FOOTER
+       ======================================================================== -->
+    <footer class="footer-bottom">
+      <div class="container">
+        <p data-i18n="footer_text">
+          Diseñado y desarrollado profesionalmente. © 2026 Yoel Benedico
+          Aguilera.
+        </p>        
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/i18n.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
